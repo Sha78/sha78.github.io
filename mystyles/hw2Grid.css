@@ -1,0 +1,1 @@
+.page-layout{display:grid;grid-template-columns:auto auto;grid-template-rows:50vh 50vh}.news,.links,.search,.messages{text-align:center;font-weight:bold}.search{background-color:violet}.links{background-color:orange}.messages{background-color:red}.news{background-color:cyan}
