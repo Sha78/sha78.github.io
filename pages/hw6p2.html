@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>CSS Shapes</title>
+   <meta charset="utf-8">
+   <meta name="description" content="This is a webpage that uses css shapes to make words wrap around an image of a house.">
+   <style>
+	  body { 
+        font: 1.2em Helvetica, Arial, sans-serif; background-color: beige; 
+        }
+
+     .content {
+        max-width: 600px; margin: 10px auto; 
+        }
+
+     .house { float: left;
+              shape-outside: url(../images/house.png); 
+              shape-margin: 10px;
+           }
+   </style>
+</head>
+<body>
+   <h1>Homework 6 - CSS Shapes</h1>
+<section class="content">
+   <img src="../images/house.png" alt="This is an image of a house" class="house">
+  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+
+<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+</section>
+</body>
+</html>
