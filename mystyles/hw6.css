@@ -1,0 +1,48 @@
+*{ background-color:#C0DEED;
+}
+
+
+#sky {
+position:fixed;
+top:0px;left:0px;
+width:100%;
+height:100%;
+text-align:center;
+margin:0px;
+padding:0px;
+background-color:#C0DEED;
+background: url(../images/clouds.png) center top repeat-x;
+padding-top:300px;
+padding-bottom:5px;
+animation: clouds 100s linear infinite;
+}
+@keyframes clouds{
+from{background-position:0 0;}
+to{background-position: 1000% 0;}
+}
+
+    #fly{
+    background-color:#C0DEED;;
+    width: calc(100% - 330px);
+    position: absolute;
+    padding:0;
+    bottom: 0;
+    left:0;
+    font-size: 1.5em;
+    /*animation*/
+    animation: message 10s both 1;
+        
+}
+@keyframes message{
+    0%{transform: translatex(0); color:black}
+    35%{color:orangered}
+    50%{transform: translatex(100%) }
+    65%{color:yellow}
+    100%{transform: translate(50%) rotatex(360deg);color:red; font-size: 60px}
+    
+    
+}
+
+
+
+
